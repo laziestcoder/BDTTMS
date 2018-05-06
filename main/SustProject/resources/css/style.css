@@ -1,0 +1,785 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Navbar start*/
+
+ 
+/*Navbar end*/
+/*Image slide with form start*/
+
+.background-img{
+    margin-top: -20px;
+    height: 500px;
+    width: 100%;
+
+   
+    background-image: url('../images/backsea.jpg');
+    background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+
+    
+}
+.background-text{
+    padding-top: 100px;
+    color: white;
+
+}
+.background-text h1{
+    font-family: 'Francois One', sans-serif;
+    text-align: center;
+    font-size: 50px;
+
+}
+.background-text h3{
+    text-align: center;
+
+}
+.image-form-div{
+    margin-left: 30px;
+
+}
+.image-form{
+  height: 60px;
+   margin-top: 23px;
+   margin-left: 8px;
+}
+@media  (max-width: 480px) {
+
+.background-img{
+    margin-top: -20px;
+    height:600px;
+    width: 480px;
+
+   
+    background-image: url('../images/pexels-photo-500528.jpeg');
+    background-size: cover;
+ 
+   background-repeat: no-repeat;
+
+    
+}
+.background-text{
+    padding-top: 0px;
+    text-align: center;
+    color: white;
+
+}
+.background-text h1{
+    font-family: 'Francois One', sans-serif;
+    font-size: 50px;
+}
+
+}
+
+/*Image slide with form End*/
+/*Heading Style with border*/
+h2 {
+ 
+    margin-top: 30px;
+    text-align: center;
+  
+}
+h2.no-background {
+    position: relative;
+    overflow: hidden;
+    
+
+}
+    .span-heading{
+        display: inline-block;
+        vertical-align: baseline;
+        zoom: 1;
+        *display: inline;
+        *vertical-align: auto;
+        position: relative;
+        padding: 0 20px;
+
+     
+
+    }
+      .span-heading:before, .span-heading:after {
+            content: '';
+            display: block;
+            width: 1000px;
+            position: absolute;
+            top: 0.73em;
+            border-top: 2px solid #EFEFEF;
+        }
+
+       .span-heading:before { right: 100%; }
+        .span-heading:after { left: 100%; }
+        /*Heading Style with border End*/
+  /* Easy to use, easy to browse  start*/
+  .circle {
+    width: 100px;
+    height: 100px;
+    background: white;
+    border: 1px solid #75C5CF;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+
+.circle i{
+    color:  #75C5CF;
+}
+
+.usp-a  a{
+    text-decoration: none;
+    color: #75C5CF;
+    font-size: 18px;
+    margin-left: 40px;
+}
+/* Easy to use, easy to browse  End*/
+/* Find your destination start*/
+       
+    .header {
+      padding: 30px 0 0;
+      float: left;
+      width: 100%;
+      background: white;
+    }
+    
+    .wrapper {
+      height: auto !important;
+      height: 100%;
+      margin: 0 auto; 
+      overflow: hidden;
+    }
+    
+   
+    
+    
+    .h1_info, .h2_info {
+      width: 100%;
+      float: left;
+    }
+    .h1_info {
+      margin-top: 100px;
+      color: #999;
+      margin-bottom: 5px;
+      font-size: 70px;
+      font-weight: 100;
+    }
+   .h2_info {
+      padding: 00px 20px 30px 20px;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      letter-spacing: 0px;
+      color: #888;
+      font-size: 20px;
+      line-height: 160%;
+      font-weight: 100;
+      margin-top: 10px;
+      margin-bottom: 0;
+    }
+    
+    
+    .pointer {
+      color: #00B0FF;
+      font-family: 'Pacifico';
+      font-size: 24px;
+      margin-top: 15px;
+      position: absolute;
+      top: 130px;
+      right: -40px;
+    }
+    .pointer2 {
+      color: #00B0FF;
+      font-family: 'Pacifico';
+      font-size: 24px;
+      margin-top: 15px;
+      position: absolute;
+      top: 130px;
+      left: -40px;
+    }
+    
+
+
+    .main {
+      float: left;
+      width: 100%;
+      margin: 0 auto;
+    }
+    
+    
+    .main h1 {
+      padding:20px 50px 10px;
+      float: left;
+      width: 100%;
+      font-size: 60px;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      font-weight: 100;
+      margin: 0;
+      padding-top: 25px;
+      font-family: 'Open Sans';
+      letter-spacing: -1px;
+      text-transform: capitalize;
+    }
+   
+   
+   
+    
+  
+    
+    .clear {
+      width: auto;
+    }
+   
+   
+    
+  
+    .container-img {
+      width: 980px;
+      margin: 0 auto;
+    }
+    
+    .page-container {
+      float: left;
+      width: 100%;
+      margin: 0 auto 300px;
+      position: relative;
+    }
+    
+    .header {
+      overflow: hidden;
+      clear: both;
+    }
+    
+ 
+    
+   
+    
+    .main {
+      position: relative;
+    }
+    
+    .shuffle-me {
+      width: 25%;
+      height: 150px;
+      margin: 2%;
+      display: block;
+      position: relative;
+      float: left;
+      width: 26%;
+      height: 209px;
+    }
+
+    .info {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.35);
+      padding: 20px;
+      text-align: center;
+      display: block;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+    }
+
+    .info h1 {
+      font-weight: bold;
+      color: white;
+      font-size: 20px;
+      margin: 55px 0 0;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      padding: 0;
+      
+    }
+
+    .info h1 a {
+     color: #fff; 
+    }
+    .info h2 {
+      margin-top: 0;
+      color: white;
+      font-size: 14px;
+      font-family: georgia;
+      font-style: italic;
+    }
+
+    .shuffle-group {
+      position: relative;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .shuffle-group .shuffle-me {
+      width: 31.9%;
+      float: left;
+      margin: 5px;
+    }
+
+    .shuffle-group .shuffle-me:first-child {
+      width: 66%;
+      float: left;
+      height: 431px;
+    }
+    .shuffle-group .shuffle-me:first-child h1 {
+      margin-top: 190px;
+      font-size: 30px;
+    }
+
+
+/* Find your destination End*/
+/*Maps Style*/
+#map{
+    margin-top: 50px;
+    height: 570px;
+    width: 650px;
+    margin-left: 175px;
+}
+/*Division of bangladesh start*/
+
+.cuadro_intro_hover{
+        padding: 0px;
+        position: relative;
+        overflow: hidden;
+        height: 200px;
+    }
+    .cuadro_intro_hover:hover .caption{
+        opacity: 1;
+        transform: translateY(-150px);
+        -webkit-transform:translateY(-150px);
+        -moz-transform:translateY(-150px);
+        -ms-transform:translateY(-150px);
+        -o-transform:translateY(-150px);
+    }
+    .cuadro_intro_hover img{
+        z-index: 4;
+    }
+    .cuadro_intro_hover .caption{
+        position: absolute;
+        top:150px;
+        -webkit-transition:all 0.3s ease-in-out;
+        -moz-transition:all 0.3s ease-in-out;
+        -o-transition:all 0.3s ease-in-out;
+        -ms-transition:all 0.3s ease-in-out;
+        transition:all 0.3s ease-in-out;
+        width: 100%;
+    }
+    .cuadro_intro_hover .blur{
+        background-color: rgba(0,0,0,0.7);
+        height: 300px;
+        z-index: 5;
+        position: absolute;
+        width: 100%;
+    }
+    .cuadro_intro_hover .caption-text{
+        z-index: 10;
+        color: #fff;
+        position: absolute;
+        height: 300px;
+        text-align: center;
+        top:-20px;
+        width: 100%;
+    }
+/*Division of bangladesh end*/
+/*Footer Start*/
+
+
+footer { background-color:#0c1a1e; min-height:350px; font-family: 'Open Sans', sans-serif; }
+.footer-col { margin-top:50px; }
+.logofooter { margin-bottom:10px; font-size:25px; color:#fff; font-weight:700;}
+
+.footer-col p { color:#fff; font-size:12px; font-family: 'Open Sans', sans-serif; margin-bottom:15px;}
+.footer-col p i { width:20px; color:#999;}
+
+.footer-ul { list-style-type:none;  padding-left:0; margin-left:2px;}
+.footer-ul li { line-height:29px; font-size:12px;}
+.footer-ul li a { color:#a0a3a4; transition: color 0.2s linear 0s, background 0.2s linear 0s; }
+.footer-ul i { margin-right:10px;}
+.footer-ul li a:hover {transition: color 0.2s linear 0s, background 0.2s linear 0s; color:#ff670f; }
+
+ .copyright { min-height:40px; background-color:#000000;}
+ .copyright p { text-align:left; color:#FFF; padding:10px 0; margin-bottom:0;}
+ .heading7 { font-size:21px; font-weight:700; color:#d9d6d6; margin-bottom:22px;}
+ .post p { font-size:12px; color:#FFF; line-height:20px;}
+ .post p span { display:block; color:#8f8f8f;}
+ .bottom_ul { list-style-type:none; float:right; margin-bottom:0;}
+ .bottom_ul li { float:left; line-height:40px;}
+ .bottom_ul li:after { content:"/"; color:#FFF; margin-right:8px; margin-left:8px;}
+ .bottom_ul li a { color:#FFF;  font-size:12px;}
+.social-icon {
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 7px;
+    border-radius: 50%;
+}
+ .footer-social li{
+     float:left;
+ }
+ .linked-in{
+     background-color:#007bb6;
+ }
+ .facebook{
+     background-color:#3b5998;
+ }
+ .twitter{
+     background-color:#1da1f2;
+ }
+ .google{
+     background-color:#f63e28;
+ }
+
+/*Footer End*/
+
+
+/*Direction slider staRT*/
+.bg-overlay {
+    margin-top: -20px;
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../images/sylhet/7bca13f5f36725de7f2d4f7726766177.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 450px;
+    padding-top: 100px;
+    width: 100%;
+}
+.bg-overlay h1{
+    font-size: 50px;
+    font-weight: 100px;
+    font-family: 'Archivo Black', sans-serif;
+
+}
+.bg-overlay h4{
+    font-size: 30px;
+}
+/*Direction slider End*/
+/*tabs start*/
+.active-border{
+   
+    border-bottom: 3px solid #75C5CF;
+}
+.active-border a{
+    color:#75C5CF;  
+}
+
+.nav-tabs  li a:hover{
+  background: white;
+  border: none;
+  color: #75C5CF;
+
+}
+.divider{
+    border-right: 1px solid #DDDDDD;
+}
+/*tabs end*/
+
+/*About the city Start*/
+ .panel-custom{
+   border: 1px solid #DDDDDD;
+ }
+.panel-custom  .panel-heading{
+   border-bottom: 1px solid #DDDDDD;
+
+}
+.panel-custom  .panel-heading a{
+    text-decoration: none;
+    color: black;
+ 
+}
+.panel-custom  .panel-heading h1{
+  font-family: 'Francois One', sans-serif;
+}
+.panel-custom  .panel-heading h1:hover{
+  font-family: 'Francois One', sans-serif;
+  color: #75C5CF;
+}
+.panel-custom  .panel-body .panel-body-image img{
+    height: 315px;
+    width: 475px;
+    margin:20px -10px;
+}
+
+.panel-custom  .panel-footer{
+  border-top: 1px solid #DDDDDD;
+  background: white;
+}
+/*About the city End*/
+  /*about city p teg read more start */
+  .panel-body-p p{
+    margin-top: 15px;
+  }
+.morecontent span {
+    display: none;
+}
+.morelink {
+    display: block;
+}
+
+ .place-button  a{
+   text-decoration: none;
+   color: black;
+   border-bottom: 1px solid #dddddd;
+ 
+  }
+   .place-button  a:hover{
+   text-decoration: none;
+   color: #75C5CF;
+   border-bottom: 1px solid #75C5CF;
+ 
+  }
+
+  /*about city p teg read more End */
+  /*plan of the city start*/
+     .plan-image{
+        margin: 5px -25px;
+     }
+     .plan-image img{
+        height: 250px;
+        width: 370px;
+
+
+     }
+
+     .place-text{
+        margin-top: -20px;
+     }
+     .place-text h3{
+        font-family: 'Francois One', sans-serif;
+     }
+     .place-stay-btn{
+        margin-top: 10px;
+        margin-left: 80px;
+
+     }
+     .place-stay-btn button{
+        border-radius: 15px;
+     }
+
+  /*plan of the city End*/
+  /*Hotel Booking style*/
+.wrapper {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.container-big {
+  display: table-cell;
+  padding: 1em;
+  text-align: center;
+  vertical-align: middle;
+}
+.big-logo {
+  width: 100px;
+  margin-bottom:15px
+}
+h3.heading {
+  color: #fff;
+  font-size: 1.15em;
+  font-weight: 900;
+  margin: 0 0 0.5em;
+  color: #505050;
+}
+@media (min-width: 450px) {
+  h3.heading {
+    font-size: 3.55em;
+  }
+}
+@media (min-width: 760px) {
+  h3.heading {
+    font-size: 3.05em;
+  }
+}
+@media (min-width: 900px) {
+  h3.heading {
+    font-size: 3.25em;
+    margin: 0 0 0.3em;
+  }
+} 
+.carbox {
+  display: block; 
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12); 
+    transition: box-shadow .25s; 
+}
+.carbox:hover {
+  box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.img-carbox {
+  width: 100%;
+  height:200px;
+  border-top-left-radius:2px;
+  border-top-right-radius:2px;
+  display:block;
+    overflow: hidden;
+}
+.img-carbox img{
+  width: 100%;
+  height: 200px;
+  object-fit:cover; 
+  transition: all .25s ease;
+} 
+.carbox-content {
+  padding:15px;
+  text-align:left;
+}
+.carbox-title {
+  margin-top:0px;
+  font-weight: 700;
+  font-size: 1.65em;
+}
+.carbox-title a {
+  color: #000;
+  text-decoration: none !important;
+}
+.carbox-read-more {
+  border-top: 1px solid #D4D4D4;
+}
+.carbox-read-more a {
+  text-decoration: none !important;
+  padding:10px;
+  font-weight:600;
+  text-transform: uppercase
+}
+/*hotel booking end*/
+/*How to travel tabs start*/
+.tab_container {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 70px;
+    position: relative;
+}
+
+input, section {
+  clear: both;
+  padding-top: 10px;
+  display: none;
+}
+
+label {
+  font-weight: 700;
+  font-size: 18px;
+  display: block;
+  float: left;
+  width: 20%;
+  padding: 1.5em;
+  color: #757575;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  background: #f0f0f0;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4,
+#tab5:checked ~ #content5 {
+  display: block;
+  padding: 20px;
+  background: #fff;
+  color: #999;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.tab_container .tab-content p,
+.tab_container .tab-content h3 {
+  -webkit-animation: fadeInScale 0.7s ease-in-out;
+  -moz-animation: fadeInScale 0.7s ease-in-out;
+  animation: fadeInScale 0.7s ease-in-out;
+}
+.tab_container .tab-content h3  {
+  text-align: center;
+}
+
+.tab_container [id^="tab"]:checked + label {
+  background: #fff;
+  box-shadow: inset 0 3px #0CE;
+}
+
+.tab_container [id^="tab"]:checked + label .fa {
+  color: #0CE;
+}
+
+label .fa {
+  font-size: 1.3em;
+  margin: 0 0.4em 0 0;
+}
+
+/*Media query*/
+@media only screen and (max-width: 930px) {
+  label span {
+    font-size: 14px;
+  }
+  label .fa {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  label span {
+    display: none;
+  }
+
+  label .fa {
+    font-size: 16px;
+  }
+
+  .tab_container {
+    width: 98%;
+  }
+}
+
+/*Content Animation*/
+@keyframes fadeInScale {
+  0% {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+/*how to travel end*/
+.booking-transport-form-1{
+background-image: url('../images/bus.jpg');
+    background-size: cover;
+  
+   background-repeat: no-repeat;
+   height: 200px;
+
+}
+.booking-transport-form-2{
+background-image: url('../images/2Of6u9Y8866ckWYqUS9WIEJ2e1APYhjwvu6ogaBGWZIvbff9SEcPNlRwFmb38IiZ.jpg');
+    background-size: cover;
+  
+   background-repeat: no-repeat;
+   height: 200px;
+
+}
+.booking-transport-form-3{
+background-image: url('../images/n5d1TasJE7zv1afuS4xvxRF3JZLbHgrI2DnG9bvQfvodo7xGWhmxHzMVykr4ORCg.jpg');
+    background-size: cover;
+  
+   background-repeat: no-repeat;
+   height: 200px;
+
+}
+
+
+/* Contact start */
+/* Contact End */
