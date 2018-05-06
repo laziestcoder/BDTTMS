@@ -1,0 +1,157 @@
+{
+    margin: 0;
+    padding: 0;
+}
+.navbar-custom{
+    background: #E1E1E1;
+}
+
+.navbar-a{
+    color: #569485;
+    font-size: 20px;
+}
+.navbar-a:hover{
+    color: #569485;
+
+}
+body{
+    background: #E1E1E1;
+}
+.body-main{
+    margin: -18px;
+
+}
+
+
+/*Status Bar*/
+.facebook-share-box {
+    width: 100%;
+}
+.facebook-share-box .share {
+    -webkit-transition: 0.1s ease-out height;
+    -moz-transition: 0.1s ease-out height;
+    -ms-transition: 0.1s ease-out height;
+    -o-transition: 0.1s ease-out height;
+    transition: 0.1s ease-out height;
+    clear: both;
+    background: white;
+    border: 2px solid #dddddd;
+    margin-bottom: 10px;
+    position: relative;
+}
+.facebook-share-box .post-types li a {
+    color: #569485;
+    text-decoration: none;
+}
+
+.facebook-share-box .post-types li a.active {
+    color: #404040;
+}
+.facebook-share-box .share .arrow {
+    background: url(arrow.png) no-repeat #dddddd;
+    position: absolute;
+    width: 14px;
+    height: 10px;
+    left: 4px;
+    display: inline;
+    top: -10px;
+    -webkit-transition: 0.3s ease-out all;
+    -moz-transition: 0.3s ease-out all;
+    -ms-transition: 0.3s ease-out all;
+    -o-transition: 0.3s ease-out all;
+    transition: 0.3s ease-out all;
+}
+
+.facebook-share-box .post-types li a {
+    color: #569485;
+    text-decoration: none;
+}
+
+.facebook-share-box .post-types li a.active {
+    color: #404040;
+}
+
+.facebook-share-box .post-types {
+    padding-left: 5px;
+}
+
+.facebook-share-box ul {
+    list-style: none;
+    margin-bottom: 9px;
+}
+
+.facebook-share-box .post-types li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.message {
+    border-radius: 0;
+    border: none;
+}
+.panel {
+    border-radius: 0;
+    border: none;
+    margin-bottom: 0;
+}
+
+.privacy-dropdown {
+    width: 100px;
+}
+/*Status bar end*/
+
+
+
+ul.comments{
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+    font-size: 20px;
+}
+ul.comments li {
+
+    display: inline;
+}
+ul .comments li a{
+    text-decoration: none;
+    color: #569485;
+}
+ul.co-small{
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+    font-size: 15px;
+}
+ul.co-small li {
+
+    display: inline;
+}
+ul .co-small li a{
+    text-decoration: none;
+    color: #569485;
+}
+
+
+.input-button[type="file"]{
+    display: none;
+
+
+}
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding:6px 12px;
+    cursor: pointer;
+
+    width: 120px;
+    color: #569485;
+}
+.custom-file-upload:hover {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding:6px 12px;
+    cursor: pointer;
+
+    width: 120px;
+    color: #569485;
+}
