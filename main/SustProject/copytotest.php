@@ -1,1 +1,0 @@
-<?php echo "copy and paste here to test files"; ?>
