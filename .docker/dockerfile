@@ -1,0 +1,5 @@
+FROM php:7.2-apache
+
+RUN sudo apt-get update -y
+RUN sudo apt-get upgrade -u
+RUN sudo apt-get install php7.2-mysqli -y

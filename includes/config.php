@@ -2,9 +2,9 @@
 
 //database connection constants
 
-define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', '');
-define('DB_NAME', 'db_sust_project');
+define('DB_HOST', 'localhost:3307');
+define('DB_USER', 'bdttms');
+define('DB_PASS', 'bdttms@123');
+define('DB_NAME', 'bdttms');
 
 ?>
